@@ -1,0 +1,140 @@
+/* Page-level */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px; }
+
+/* Note: Make HTML 5 elements block-level for consistent styling */
+header, nav, article, footer, address {
+  display: block; }
+
+/* Sections */
+header, footer {
+  width: 100%;
+  clear: both; }
+
+/* Content */
+h1 {
+  font-size: 4.5em; }
+
+h2 {
+  font-size: 2.0em;
+  margin: 0; }
+
+h3 {
+  font-size: 1.4em;
+  margin: 0; }
+
+p {
+  font-size: 1.0em; }
+
+ul.group-errors {
+  margin-top: 10px;
+  padding-left: 135px; }
+
+input[type="image"], input[type="checkbox"], input[type="radio"] {
+  margin-top: 0; }
+
+.red {
+  color: red; }
+
+#page #backend {
+  float: left;
+  width: 100%; }
+  #page #backend .login-field-set {
+    margin: 10% auto !important;
+    width: 500px; }
+  #page #backend header {
+    width: 96%;
+    padding: 10px 2%;
+    background: black;
+    color: #ccc; }
+    #page #backend header .span9 h3 {
+      line-height: 24px; }
+    #page #backend header .span9 p {
+      margin: 0; }
+      #page #backend header .span9 p a {
+        color: #6ACC00; }
+    #page #backend header .span3 p {
+      margin: 0;
+      text-align: right; }
+      #page #backend header .span3 p a {
+        color: #6ACC00; }
+  #page #backend > h2 {
+    padding-left: 10px;
+    line-height: 18px;
+    color: #005580; }
+  #page #backend .navbar-fixed-top {
+    position: inherit; }
+  #page #backend .add-new a.btn-inverse, #page #backend select[name="selectAction"] {
+    margin: 10px; }
+  #page #backend form.form-search {
+    margin-left: 10px; }
+  #page #backend form.form-sort {
+    margin-left: 10px; }
+    #page #backend form.form-sort dd {
+      float: left;
+      padding: 5px;
+      margin: 0 5px 0 0;
+      background-color: #ffe13f;
+      cursor: pointer; }
+    #page #backend form.form-sort input[type="submit"] {
+      margin: 5px 0; }
+  #page #backend .form-horizontal {
+    margin-top: 20px; }
+    #page #backend .form-horizontal .input-xxlarge {
+      width: 97%; }
+  #page #backend .pagination {
+    text-align: center; }
+  #page #backend img.moving-item {
+    vertical-align: top; }
+  #page #backend table#galleries-result {
+    width: 600px; }
+    #page #backend table#galleries-result tr:hover {
+      background-color: yellow;
+      cursor: pointer; }
+  #page #backend article {
+    border-bottom: 1px dashed gray;
+    margin-bottom: 2.666666%; }
+  #page #backend article p {
+    padding: 1.3333333; }
+  #page #backend footer {
+    text-align: center;
+    background: #ccc;
+    padding: 5px 0;
+    width: 100%;
+    float: left; }
+    #page #backend footer address {
+      margin: 0px; }
+
+#progress {
+  position: fixed;
+  display: none;
+  left: 44%;
+  top: 49%;
+  width: 12%;
+  height: 2%;
+  z-index: 1000; }
+  #progress .bar {
+    height: 100%;
+    background: green; }
+
+.background-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url(../images/backend/transparent-background.png);
+  background-repeat: repeat;
+  display: none;
+  z-index: 1; }
+  .background-mask img.loading {
+    z-index: 2;
+    position: fixed;
+    left: 48%;
+    top: 48%;
+    display: none; }
+
+/*# sourceMappingURL=styles.css.map */

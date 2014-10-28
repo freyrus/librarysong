@@ -1,0 +1,155 @@
+// admin style
+/* Page-level */
+body {
+    margin:0;
+    padding:0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:12px;
+}
+/* Note: Make HTML 5 elements block-level for consistent styling */
+header, nav, article, footer, address { display:block; }
+/* Sections */
+header, footer { width:100%; clear:both; }
+/* Content */
+h1 { font-size: 4.5em; }
+h2 { font-size: 2.0em; margin:0; }
+h3 { font-size: 1.4em; margin:0; }
+p { font-size: 1.0em; }
+ul.group-errors {
+    margin-top: 10px;
+    padding-left: 135px;
+}
+input[type="image"], input[type="checkbox"], input[type="radio"] {
+    margin-top: 0;
+}
+.red {
+    color: red;
+}
+#page {
+    #backend {
+        float: left;
+        width: 100%;
+        .login-field-set {
+            margin: 10% auto !important;
+            width: 500px;
+        }
+        header {
+            width:96%;
+            padding:10px 2%;
+            background:black;
+            color:#ccc;
+            .span9 {
+                h3 {
+                    line-height: 24px;
+                }
+                p {
+                    margin: 0;
+                    a {
+                        color: #6ACC00;
+                    }
+                }
+            }
+            .span3 p {
+                margin: 0;
+                text-align: right;
+                a {
+                    color: #6ACC00;
+                }
+            }
+        }
+        &> h2 {
+            padding-left: 10px;
+            line-height: 18px;
+            color: #005580;
+        }
+        .navbar-fixed-top {
+            position: inherit;
+        }
+        .add-new a.btn-inverse, select[name="selectAction"] {
+            margin: 10px;
+        }
+        form.form-search{
+            margin-left: 10px;
+        }
+        form.form-sort {
+            margin-left: 10px;
+            dd {
+                float: left;
+                padding: 5px;
+                margin: 0 5px 0 0;
+                background-color: #ffe13f;
+                cursor: pointer;
+            }
+            input[type="submit"] {
+                margin: 5px 0;
+            }
+        }
+        .form-horizontal {
+            margin-top: 20px;
+            .input-xxlarge {
+                width: 97%;
+            }
+        }
+        .pagination {
+            text-align: center;
+        }
+        img.moving-item {
+            vertical-align: top;
+        }
+        table#galleries-result {
+            width: 600px;
+            tr:hover {
+                background-color: yellow;
+                cursor: pointer;
+            }
+        }
+        article {
+            border-bottom: 1px dashed gray;
+            margin-bottom: 2.666666%;
+        }
+        article p {
+            padding:1.3333333;
+        }
+        footer {
+            text-align:center;
+            background:#ccc;
+            padding:5px 0;
+            width: 100%;
+            float: left;
+            address {
+                margin: 0px;
+            }
+        }
+    }
+}
+#progress {
+    position: fixed;
+    display: none;
+    left: 44%;
+    top: 49%;
+    width: 12%;
+    height: 2%;
+    z-index: 1000;
+    .bar {
+        height: 100%;
+        background: green;
+    }
+}
+.background-mask{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background-image:url(../images/backend/transparent-background.png);
+    background-repeat:repeat;
+    display:none;
+    z-index:1;
+    img.loading {
+        z-index:2;
+        position:fixed;
+        left:48%;
+        top:48%;
+        display:none
+    }
+}
